@@ -1,18 +1,4 @@
-// import {useState,useEffect } from 'react';
-// import {Box,Stack,Typography} from '@mui/material';
-// import { fetchFromAPI } from '../utils/fetchFromAPI';
-// import Sidebar from './Sidebar';
-// import VideoDetail from './VideoDetail';
-// import Videos from './Videos';
 
-// const Feed = () => {
-//     const [selectedCategory,setSelectedCategory]=useState('New');
-//     const [videos,setVideos]=useState([]);
-//     useEffect(()=>{
-//         fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data)=> setVideos(data.items))
-//         },[selectedCategory]);
-//   return (
-//     <Stack
 //     sx={{flexDirection:{sx:'column',md:'row'}}}>
 //     <Box sx={{
 //         height:{sx:'auto',md:'92vh'},
