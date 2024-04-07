@@ -1,8 +1,4 @@
 
-// }
-
-// export default ChannelDetail;
-// http://localhost:3000/channel/[object%20Object]?.id?.channelId
 
 
 import React, { useState, useEffect } from "react";
